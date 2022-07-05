@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/ivImagensItem"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="16dp"
+        tools:src="@drawable/lipi"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:focusable="true"
+
+        />
+
+    <TextView
+        android:id="@+id/txNomesItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="InvalidId"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/ivImagensItem"
+        android:textStyle="bold"
+        tools:text="Mc Lipi"
+        android:textSize="35sp"/>
+
+</RelativeLayout>
